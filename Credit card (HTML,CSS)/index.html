@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editable Credit Card</title>
+    <link rel="shortcut icon" href="images/credit-card-design(for web project).png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <body>
+    
+      <div class="card">
+        <img class="card_visa" src="images/visa.png" alt="visa_card" />
+      </div>
+      <div class="card_input card_number">
+        <input
+          type="text"
+          value="8457 8965 8895 8892 "
+          onfocus="this.value=''"
+        />
+      </div>
+      <div class="card_flex">
+        <div class="input">
+          <label for="holder">Holder Name</label>
+          <input
+            type="text"
+            value="arpan"
+            id="holder"
+            onfocus="this.value=''"
+          />
+        </div>
+        <div class="input">
+          <label for="expires">Expires</label>
+          <input
+            type="text "
+            value="06/21"
+            id="expires"
+            onfocus="this.value=''"
+          />
+        </div>
+        <div class="input">
+          <label for="CVC">CVC</label>
+          <input type="text" value="123" id="CVC" onfocus="this.value=''" />
+        </div>
+      </div>
+  
+  </head>
+</body>
+</html>
